@@ -60,7 +60,7 @@ For bea-test dataset, please refer to [https://codalab.lisn.upsaclay.fr/competit
 
 For bea-valid and conll14-test datasets:
 
-1. `cd metric`
+1. `cd scripts/metric`
 
 3. `sh compute_conll14-test_m2.py` - evaluate conll14-test dataset
 
