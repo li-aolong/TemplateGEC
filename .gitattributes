@@ -1,0 +1,2 @@
+*.src filter=lfs diff=lfs merge=lfs -text
+*.tgt filter=lfs diff=lfs merge=lfs -text

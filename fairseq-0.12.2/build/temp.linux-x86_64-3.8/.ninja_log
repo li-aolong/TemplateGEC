@@ -1,0 +1,15 @@
+# ninja log v5
+0	85	0	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/clib/libbleu/module.o	565bc10df045c81c
+0	311	0	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/clib/libbleu/libbleu.o	260801e848117305
+0	3214	0	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/data/data_utils_fast.o	bb2edc512949019a
+0	3502	0	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/data/token_block_utils_fast.o	118f02c81a1f2c73
+0	20915	0	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/clib/libbase/balanced_assignment.o	9ae040422c6d068b
+0	18271	0	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/clib/libnat/edit_dist.o	4409b58f45a6a855
+0	23090	0	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/examples/operators/alignment_train_cpu.o	69be6280a374c8d4
+0	82	1663577224354268303	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/clib/libbleu/module.o	565bc10df045c81c
+0	304	1663577224576267193	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/clib/libbleu/libbleu.o	260801e848117305
+0	3346	1663577228140249390	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/data/data_utils_fast.o	bb2edc512949019a
+0	3673	1663577232089229662	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/data/token_block_utils_fast.o	118f02c81a1f2c73
+0	21600	1663577253944120486	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/clib/libbase/balanced_assignment.o	9ae040422c6d068b
+0	18621	1663577273036025113	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/fairseq/clib/libnat/edit_dist.o	4409b58f45a6a855
+0	22601	1663577296118909802	/home/yhli/codes/fairseq-0.12.2/build/temp.linux-x86_64-3.8/examples/operators/alignment_train_cpu.o	69be6280a374c8d4

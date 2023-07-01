@@ -1,0 +1,13 @@
+CODE_DIR="fairseq-0.12.2"
+
+
+dest_data_bin="scripts/model_bart/data-bins/baseline"
+
+python $CODE_DIR/fairseq_cli/preprocess.py \
+    --source-lang src --target-lang tgt \
+    --trainpref scripts/datas/bart_datas/train.bart-bpe \
+    --validpref scripts/datas/bart_datas/valid.bart-bpe \
+    --destdir $dest_data_bin \
+    --workers 30 \
+    --srcdict scripts/datas/bart_datas/dict.txt \
+    --joined-dictionary
