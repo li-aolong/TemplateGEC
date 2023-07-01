@@ -1,6 +1,4 @@
 # TemplateGEC
-<<<<<<< HEAD
-
 This repository contains the source code for *TemplateGEC: Improving Grammatical Error Correction with Detection Template* accepted by ACL2023. This paper presents a new method for GEC, called TemplateGEC, which integrates the Seq2Edit and Seq2Seq frameworks, leveraging their strengths in error detection and correction.
 
 ## Overview
@@ -67,4 +65,3 @@ For bea-valid and conll14-test datasets:
 3. `sh compute_conll14-test_m2.py` - evaluate conll14-test dataset
 
 ACL2023: TemplateGEC: Improving Grammatical Error Correction with Detection Template
->>>>>>> cddd7de5f9d65e75cde2d3121c5889b939c1ba1d
