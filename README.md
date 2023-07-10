@@ -62,3 +62,26 @@ For bea-valid and conll14-test datasets:
 
 1. `cd scripts/metric`
 2. `sh compute_conll14-test_m2.py` - evaluate conll14-test dataset
+
+## Cite
+```
+@inproceedings{li-etal-2023-templategec,
+    title = "{T}emplate{GEC}: Improving Grammatical Error Correction with Detection Template",
+    author = "Li, Yinghao  and
+      Liu, Xuebo  and
+      Wang, Shuo  and
+      Gong, Peiyuan  and
+      Wong, Derek F.  and
+      Gao, Yang  and
+      Huang, Heyan  and
+      Zhang, Min",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.380",
+    pages = "6878--6892",
+    abstract = "Grammatical error correction (GEC) can be divided into sequence-to-edit (Seq2Edit) and sequence-to-sequence (Seq2Seq) frameworks, both of which have their pros and cons. To utilize the strengths and make up for the shortcomings of these frameworks, this paper proposes a novel method, TemplateGEC, which capitalizes on the capabilities of both Seq2Edit and Seq2Seq frameworks in error detection and correction respectively. TemplateGEC utilizes the detection labels from a Seq2Edit model, to construct the template as the input. A Seq2Seq model is employed to enforce consistency between the predictions of different templates by utilizing consistency learning. Experimental results on the Chinese NLPCC18, English BEA19 and CoNLL14 benchmarks show the effectiveness and robustness of TemplateGEC.Further analysis reveals the potential of our method in performing human-in-the-loop GEC. Source code and scripts are available at https://github.com/li-aolong/TemplateGEC.",
+}
+```
